@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LocalFragment">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFFFFF">
+
+
+
+
+
+    <TextView
+        android:id="@+id/text_view"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:textSize="20sp"
+        android:hint="Range"
+        android:textColor="@android:color/holo_blue_dark"
+        android:gravity="center"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="right">
+    <SeekBar
+        android:id="@+id/seek_bar"
+        android:layout_width="wrap_content"
+        android:max="1000"
+        android:layout_weight="99"
+        android:layout_height="40dp"
+        />
+        <ToggleButton
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:textOn="Fetch"
+            android:textOff="Off"
+            android:focusedByDefault="true"
+            android:id="@+id/toggle"
+            android:textAllCaps="false"
+            android:background="@drawable/custom_button_fetch"
+            />
+
+    </LinearLayout>
+
+    <ListView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/database_list_view"
+        android:layout_weight="2"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+
+        android:orientation="horizontal">
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:hint="Enter Your Feed Here"
+            android:id="@+id/etDatabase"
+            android:layout_weight="1"
+            android:layout_marginEnd="@android:dimen/app_icon_size"
+            android:layout_gravity="bottom"
+
+            />
+
+        <Button
+            android:id="@+id/btnAdd"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:foreground="@drawable/send_foreground"
+            android:background="@drawable/send_background"
+            android:gravity="center"
+            android:padding="1dp"
+            android:layout_marginRight="4dp"
+
+            android:textAllCaps="false"/>
+    </LinearLayout>
+
+
+</LinearLayout>
+
+
+</FrameLayout>

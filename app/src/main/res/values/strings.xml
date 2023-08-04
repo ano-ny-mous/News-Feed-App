@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">News Feed</string>
+    <string name="please_check_your_internet_connection">Please Check Your Internet Connection  :(</string>
+    <string name="title_of_the_artical">Title of the Artical</string>
+    <string name="secction_name">Secction Name</string>
+    <string name="date">DD/MM/YYYY</string>
+    <string name="read_more">Read More...</string>
+    <string name="author_name">Author Name</string>
+    <string name="no_news_available_at_the_moment">No News Available At The Moment</string>
+    <string name="tags_query">show-tags</string>
+    <string name="tags_value">contributor</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Show feed"
+        android:textSize="15sp"
+        android:id="@+id/show_feed"
+        android:padding="4dp"
+        android:textColor="#000"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right">
+      <LinearLayout
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:orientation="vertical">
+    <Button
+        android:id="@+id/up_vote_btn"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_gravity="right"
+        android:foreground="@drawable/up_foreground"
+        android:background="@drawable/up_background"
+
+        />
+        <TextView
+            android:id="@+id/up_vote_text"
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:textSize="13sp"
+            android:gravity="center"
+            />
+      </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+    <Button
+        android:id="@+id/down_vote_btn"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_gravity="right"
+        android:foreground="@drawable/down_foreground"
+        android:background="@drawable/down_background"
+        />
+        <TextView
+            android:id="@+id/down_vote_text"
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:gravity="center"
+            android:textSize="13sp"
+            />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
