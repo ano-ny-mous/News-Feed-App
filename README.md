@@ -2,6 +2,12 @@
 
 **News Feed App** is an Android application that allows users to browse and read the latest global news articles. It uses the Guardian API to fetch news data. Users can also add their local news to the app, which will be stored and displayed for other users in the same location.
 
+## Screenshots
+
+<img src="https://github.com/ano-ny-mous/News-Feed-App/assets/91519560/89e0ec2a-0034-48f3-9f89-367f7de40279" alt="Screenshot 1" width="300" >
+
+<img src="https://github.com/ano-ny-mous/News-Feed-App/assets/91519560/60c02106-a8be-4d15-a066-2465ee55dd00" alt="Screenshot 2" width="300"/>
+
 ## Features
 
 - **Global News**: Fetches the latest global news articles from the Guardian API.
